@@ -18,3 +18,5 @@ CMD /run.sh
 
 EXPOSE 80
 VOLUME /var/www/nextcloud
+
+LABEL org.opencontainers.image.source = &quot;https://github.com/FloridaMan7588/docker-nc-nginx&quot;
